@@ -7,5 +7,5 @@
 * Sorting
 	* Bubble Sort
 	* Comb Sort
+	* Insertion Sort
 ## WIP
-* Insertion Sort
