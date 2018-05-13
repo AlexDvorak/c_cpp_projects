@@ -8,4 +8,5 @@
 	* Bubble Sort
 	* Comb Sort
 	* Insertion Sort
+	* Selection Sort
 ## WIP
