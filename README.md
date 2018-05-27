@@ -10,10 +10,6 @@
 	* Comb Sort
 	* Insertion Sort
 	* Selection Sort
-## Planned
-* Quicksort
-* Quicksort 3-way
-* Shell Sort
-* Merge Sort
-* Quadtree
-* Binary Tree
+	* Quicksort
+	* Shell Sort
+## [TODO](https://github.com/AlexDvorak/c_cpp_projects/issues?q=is%3Aissue+is%3Aopen+label%3A%22to+do%22)
