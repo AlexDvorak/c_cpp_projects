@@ -1,13 +1,10 @@
 #include<stdio.h>
 void ShellSort(int a[], int n){
     int i, j, increment, tmp;
-    for(increment = n/2; increment > 0; increment /= 2)
-    {
-        for(i = increment; i < n; i++)
-        {
+    for(increment = n/2; increment > 0; increment /= 2){
+        for(i = increment; i < n; i++){
             tmp = a[i];
-            for(j = i; j >= increment; j -= increment)
-            {
+            for(j = i; j >= increment; j -= increment){
                 if(tmp < a[j-increment])
                     a[j] = a[j-increment];
                 else
@@ -23,8 +20,7 @@ int main(){
     printf("Enter the number of elements :: ");
     scanf("%d",&n);
     printf("Enter the elements :: ");
-    for(i = 0; i < n; i++)
-    {
+    for(i = 0; i < n; i++){
         scanf("%d",&a[i]);
     }
     ShellSort(a,n);
